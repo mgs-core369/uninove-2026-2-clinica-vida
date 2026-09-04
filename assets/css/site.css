@@ -1,3 +1,21 @@
+:root {
+  --vida-primaria:   #0B6E75;
+  --vida-secundaria: #2E9E7E;
+  --vida-destaque:   #E4572E;
+  --vida-fundo:      #F4F7F6;
+  --vida-texto:      #1F2A30;
+  --vida-borda:      #D6E2E0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #F4F7F6;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--vida-texto);
+  background-color: var(--vida-fundo);
 }
